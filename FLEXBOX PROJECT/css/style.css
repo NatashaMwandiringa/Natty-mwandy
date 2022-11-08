@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ .herosection{
+    background-image: url(../images/bg-masthead.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+   /*   display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+      */
+   
+}
+ 
+ .nav{
+
+  /*   background-color: blue; */
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.burger1{
+border-radius: 10px;
+border: none;
+width: 25px;
+height: 3px;
+background-color: white;
+}
+
+.burger2{
+    border-radius: 10px;
+    border: none;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    }
+    
+    .burger3{
+        border-radius: 10px;
+        border: none;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        }
+
+.menubar{
+
+background-color: rgb(145, 124, 21);
+width: 40px;
+height: 40px;
+border-radius: 7px;
+display: flex;
+align-items: center;
+/* justify-content: center; */
+flex-direction: column;
+justify-content: space-around;
+padding: 10px;
+margin: 10px;
+}
+
+.hero-bg{
+ /*    background-color: green; */
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.hero-bg h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+}
+.herosection p{
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight: 200;
+    margin: 30px;
+
+}
+button{
+    background-color: rgb(0, 128, 163);
+    border: none;
+    font-weight: bold;
+    color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+
+
+}
+.whitesection{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.white-sect h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:40px;
+
+
+}
+.whitesection  p{
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight: 200;
+    opacity: 60%;
+}
+span{
+    color: cornflowerblue;
+
+}
+ .whitesection button{
+    background-color: black;
+    border: none;
+    font-weight: normal;
+    color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+    
+}
+.whatweoffer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 128, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+
+   
+}
+.offer-bg h4{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:20px;
+
+}
+
+.whatweoffer h1{
+    font-family:sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color: white;
+}
+.whatweoffer span{
+    color: coral;
+}
+.icons{
+   display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+
+}
+h2{
+    color: white;
+}
+   .whatweoffer p{
+    color: white;
+}
+.website{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-callout.jpg);
+    background-position: center;
+    background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;    
+}
+.next{
+    font-style: normal;
+    font-size: 30px;
+}
+.next button{
+    background-color: rgb(0, 128, 163);
+    border: none;
+    font-weight: bold;
+    color: white;
+  border-radius: 2px;
+  width: 100px;
+  height: 50px;
+
+
+}
+.portfolio{
+    /* width: 100%; */
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+
+}
+.port-bg h4{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:15px;
+   color: darkorange;
+
+
+}
+.port-bg h3{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:30px;
+
+
+}
+
+.maincontainer{
+   
+    columns: 2;
+    gap: 0;
+
+}
+
+.maincontainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   color: white;
+
+}
+.rect1{
+    background-image: url(../images/portfolio-1.jpg);
+   background-size: cover;
+   width: 400px;
+   height: 300px;
+   
+
+}
+.rect2{
+    background-image: url(../images/portfolio-3.jpg);
+    background-position: center;
+   height: 300px;
+   width: 400px;
+  
+}
+ 
+.rect3{
+    background-image: url(../images/portfolio-2.jpg);
+    background-size: cover;
+   width: 400px;
+   height: 300px;
+   
+
+}
+.rect4{
+    background-image: url(../images/portfolio-4.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    
+
+}
+.best{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 128, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+   
+}
+.buttons h4{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:30px;
+    color: white;
+}
+.button1{
+    background-color:white;
+    border: none;
+    font-weight: bold;
+    color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  
+}
+.button2{
+    background-color:black;
+    border: none;
+    font-weight: bold;
+    color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+.maps{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/dzikwa\ map.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+ 
+    
+
+}
+.foot img{
+    width: 40px;
+   margin: 15px;
+    
+}
+
+.footer p{
+font-size: 15px;
+
+
+
+}
+
+
+
